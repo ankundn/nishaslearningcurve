@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import {MdFingerprint} from 'react-icons/md'
 import {FaBars, FaTimes} from 'react-icons/fa'
-// import {Button} from '../components/Button'
+import {Button} from '../components/Button'
 import './Navbar.css';
 
 function Navbar() {
@@ -45,11 +45,11 @@ window.addEventListener('resize', showButton)
                          Services
                      </Link>
                  </li>
-                 <li className="nav-item">
+                 {/* <li className="nav-item">
                      <Link to='/pricing' className="nav-links">
                          Pricing 
                      </Link>
-                 </li>
+                 </li> */}
                  <li className="nav-item">
                      <Link to='/Admission' className="nav-links">
                          Admission
@@ -65,7 +65,7 @@ window.addEventListener('resize', showButton)
                          Contact Us
                      </Link>
                  </li>
-                 {/* <li className="nav-btn">
+                 <li className="nav-btn">
                      {
                           button ? (
                               <Link to='/sign-up' className="btn-link">
@@ -82,7 +82,7 @@ window.addEventListener('resize', showButton)
                               </Link>
                           )
                      }
-                 </li> */}
+                 </li>
              </ul>
           </div>
         </div>

@@ -53,12 +53,12 @@ window.addEventListener('resize', showButton)
                          Services
                      </Link>
                  </li>
-                 {/* <li className="nav-item">
-                     <Link to='/pricing' className="nav-links">
-                         Pricing 
-                     </Link>
-                 </li> */}
                  <li className="nav-item">
+                     <Link to='/products' className="nav-links">
+                         Products 
+                     </Link>
+                 </li>
+                 {/* <li className="nav-item">
                      <Link to='/Admission' className="nav-links" onClick={closeMobileMenu}>
                          Admission
                      </Link>
@@ -72,7 +72,7 @@ window.addEventListener('resize', showButton)
                      <Link to='/contact' className="nav-links" onClick={closeMobileMenu}>
                          Contact Us
                      </Link>
-                 </li>
+                 </li> */}
                  <li className="nav-btn">
                      {
                           button ? (

@@ -2,14 +2,14 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Exclusive Access',
-    headline: 'Unlimited Transactions with zero fees',
+    topLine: 'Pearl Rehabilitation Centre',
+    headline: 'Enable, Empower, Heal',
     description:
       'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-    buttonLabel: 'Get Started',
-    imgStart: '',
-    img: 'images/svg-1.svg',
-    alt: 'Credit Card'
+    // buttonLabel: 'Get Started',
+    // imgStart: '',
+    // img: 'images/svg-1.svg',
+    // alt: 'Credit Card'
   };
   
   export const homeObjTwo = {

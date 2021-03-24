@@ -33,7 +33,7 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div className='footer-links'>
+      {/* <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
@@ -67,17 +67,17 @@ function Footer() {
             <Link to='/'>Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               <MdFingerprint className='navbar-icon' />
-              LAVISH
+              PEARL REHABILITATION CENTRE
             </Link>
           </div>
-          <small className='website-rights'>LAVISH © 2020</small>
-          <div className='social-icons'>
+          <small className='website-rights'>pearl rehabilitation centre © 2021</small>
+          {/* <div className='social-icons'>
             <Link
               className='social-icon-link'
               to='/'
@@ -120,7 +120,7 @@ function Footer() {
             >
               <FaLinkedin />
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
